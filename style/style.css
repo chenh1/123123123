@@ -1,0 +1,65 @@
+* {
+  border: 1px solid black; }
+
+.header {
+  height: 50px; }
+
+.navItem,
+.manageLink {
+  font-size: 14px;
+  font-weight: 300;
+  transition: .3s;
+  cursor: pointer; }
+
+.navItem:hover {
+  transform: scale3d(1.15, 1.15, 1.15); }
+
+.manageLink:hover {
+  color: #a0d8ef; }
+
+.mobileNavItem {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 6vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  transition: .3s; }
+
+.mobileNavItem:hover {
+  color: #a0d8ef;
+  transform: scale3d(1.3, 1.3, 1.3) translateX(-38.5%); }
+
+.onPage {
+  color: #949E64; }
+
+.mainMenu {
+  margin-bottom: 0; }
+
+.regularMenu li {
+  width: 14.2%;
+  padding-top: 10px;
+  list-style: none;
+  display: inline-block; }
+
+.menuItem, .mainMenu {
+  transition: .3s; }
+
+.menuItem:hover {
+  background: #432727;
+  color: #a4caf7; }
+
+.regularMenu li,
+.mobileMenu li {
+  cursor: pointer; }
+
+.mobileMenu li {
+  padding: 10px 0; }
+
+.mobileMenu {
+  height: 93.5vh;
+  width: 100%;
+  z-index: 2001;
+  margin-top: -5px; }
+
+/*# sourceMappingURL=style.css.map */
